@@ -38,11 +38,11 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "RainyRose",
+  BLOG_NAME: "RainyRose 的GitHub",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "www.rainyrose.org",
+  BLOG_URL: "https://github.com/iRainyRose",
   /**
    * 指定中心 LOGO 图片地址
    */
@@ -65,15 +65,12 @@ const GLOBAL_CONFIG = {
    * 网站欢迎标语
    */
   SLOGANS: [
-    "欢迎拜访",
-    "歡迎拜訪",
-    "Welcome, my friend!",
-    "訪問へようこそ",
-    "嗨，别来无恙",
     "不忘初心，一生浪漫",
-    "最近还好吗？",
-    "流星，落花，萤火",
-    "马车越空，晃荡越响",
+    "坚守梦想，岁月如歌",
+    "追求真理，心怀热情",
+    "铭记初衷，人生如诗",
+    "勇敢前行，心中有光",
+    "珍惜当下，笑对未来",
   ],
   /**
    * Website 分类配置
