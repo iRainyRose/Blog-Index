@@ -1,48 +1,31 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "Nukkit Plugin",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
+        title: "KillRanking",
+        url: "https://github.com/iRainyRose/KillRanking/",
+        description: "玩家击杀排行榜",
         icon: "",
         color: "#0171CD",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
-      },
-      {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "IgnoreBiomeCheck",
+        description: "忽略NK的生物群系检查",
+        url: "https://github.com/iRainyRose/IgnoreBiomeCheck",
         icon: "",
       },
     ],
   },
   {
-    title: "示例分类2",
-  },
-  {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
-  },
-  {
     title: "友情链接",
     sites: [
       {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+        title: "Nukkit-MOT",
+        description: "Nukkit-MOT",
+        url: "https://www.nukkit-mot.com/",
+        icon: "",
       },
     ],
   },
@@ -55,11 +38,11 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "RainyRose",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "www.rainyrose.org",
   /**
    * 指定中心 LOGO 图片地址
    */
@@ -67,7 +50,7 @@ const GLOBAL_CONFIG = {
   /**
    * 个人 Github 链接
    */
-  GITHUB_URL: "https://github.com/EsunR",
+  GITHUB_URL: "https://github.com/iRainyRose",
   /**
    * 背景图片地址
    */
@@ -75,7 +58,7 @@ const GLOBAL_CONFIG = {
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "京ICP证000001号",
+  ICP: "",
   ICP_URL: "https://beian.miit.gov.cn/",
   FOOTER_INFO: true,
   /**
@@ -104,9 +87,9 @@ const GLOBAL_CONFIG = {
    * 网站 Title Keywords Description 的配置，用于 SEO
    */
   TKD: {
-    title: "My Blog Index",
-    keywords: "Blog, Index, Index Page",
-    description: "This is my personal blog index page.",
+    title: "iRainyRose",
+    keywords: "iRainyRose, RainyRose",
+    description: "This is my personal index page.",
   },
 };
 
